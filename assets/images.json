@@ -1,0 +1,1804 @@
+{
+  "images": [
+    { 
+          "name": "group", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Group.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-1x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-2x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-3x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-4x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-1x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-2x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-3x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-4x.png"
+    },
+    { 
+          "name": "b758c85e15b92a6d28f1c65ed1202d59cc48cb54", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/b758c85e15b92a6d28f1c65ed1202d59cc48cb54.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-1x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-2x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-3x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-4x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-1x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-2x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-3x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-4x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-1x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-2x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-3x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-4x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-1x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-2x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-3x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-4x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-1x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-2x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-3x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-4x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-1x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-2x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-3x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-4x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-1x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-2x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-3x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-4x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-1x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-2x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-3x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-4x.png"
+    },
+    { 
+          "name": "img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20.png"
+    },
+    { 
+          "name": "img3b14f83f0442ff949777ad8d262e1f20a4af3cf2", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img3b14f83f0442ff949777ad8d262e1f20a4af3cf2.png"
+    },
+    { 
+          "name": "img4e3d87635acfb01d500f3ce20f8733d249494b3c", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img4e3d87635acfb01d500f3ce20f8733d249494b3c.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-1x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-2x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-3x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-4x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-1x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-2x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-3x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-4x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-1x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-2x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-3x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-4x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-1x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-2x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-3x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-4x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-1x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-2x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-3x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-4x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-1x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-2x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-3x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-4x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-1x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-2x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-3x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile_3_", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-4x.png"
+    },
+    { 
+          "name": "group", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Group.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-1x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-2x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-3x.png"
+    },
+    { 
+          "name": "location_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_icon-4x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-1x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-2x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-3x.png"
+    },
+    { 
+          "name": "star_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Star_icon-4x.png"
+    },
+    { 
+          "name": "b758c85e15b92a6d28f1c65ed1202d59cc48cb54", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/b758c85e15b92a6d28f1c65ed1202d59cc48cb54.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-1x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-2x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-3x.png"
+    },
+    { 
+          "name": "location_white_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Location_white_icon-4x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-1x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-2x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-3x.png"
+    },
+    { 
+          "name": "chatbot", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Chatbot-4x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-1x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-2x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-3x.png"
+    },
+    { 
+          "name": "search_icon_grey", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_Icon_Grey-4x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-1x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-2x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-3x.png"
+    },
+    { 
+          "name": "arrow", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Arrow-4x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-1x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-2x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-3x.png"
+    },
+    { 
+          "name": "attractions_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_grey_icon-4x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-1x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-2x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-3x.png"
+    },
+    { 
+          "name": "attractions_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Attractions_icon-4x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-1x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-2x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-3x.png"
+    },
+    { 
+          "name": "back_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Back_icon-4x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-1x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-2x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-3x.png"
+    },
+    { 
+          "name": "cruises_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Cruises_grey_icon-4x.png"
+    },
+    { 
+          "name": "img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20.png"
+    },
+    { 
+          "name": "img3b14f83f0442ff949777ad8d262e1f20a4af3cf2", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img3b14f83f0442ff949777ad8d262e1f20a4af3cf2.png"
+    },
+    { 
+          "name": "img4e3d87635acfb01d500f3ce20f8733d249494b3c", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Img4e3d87635acfb01d500f3ce20f8733d249494b3c.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-1x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-2x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-3x.png"
+    },
+    { 
+          "name": "logo", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Logo-4x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-1x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-2x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-3x.png"
+    },
+    { 
+          "name": "package_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Package_grey_icon-4x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-1x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-2x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-3x.png"
+    },
+    { 
+          "name": "packages_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Packages_icon-4x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-1x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-2x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-3x.png"
+    },
+    { 
+          "name": "search_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Search_icon-4x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-1x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-2x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-3x.png"
+    },
+    { 
+          "name": "ship_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Ship_icon-4x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-1x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-2x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-3x.png"
+    },
+    { 
+          "name": "trips_grey_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Trips_grey_icon-4x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-1x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-2x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-3x.png"
+    },
+    { 
+          "name": "flights_icon", 
+          "theme": "Travel_Agency_App_Mobile", 
+          "lang": "English",
+          "colorScheme": "",
+          "options": [
+          ],
+          "density": [], 
+          "location": "resources/Flights_icon-4x.png"
+    }
+  ]
+}

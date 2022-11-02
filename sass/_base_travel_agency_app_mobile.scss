@@ -1,0 +1,3425 @@
+@use  "../../node_modules/@genexus/web-controls-library/dist/theming/theming-mixins" as gx_wcl;
+@use  "./common" as gx_common;
+// *** TOKENS ***
+@mixin tokens
+{
+
+	// prefers-color-scheme
+
+}
+
+// *** IMAGES ***
+@mixin images
+{
+	:root {
+		--gx-image_Group: url(^assets/resources/Group.png);
+		--gx-image_Location_icon: url(^assets/resources/Location_icon.png);
+		--gx-image_Location_icon: url(^assets/resources/Location_icon-1x.png);
+		--gx-image_Location_icon: url(^assets/resources/Location_icon-2x.png);
+		--gx-image_Location_icon: url(^assets/resources/Location_icon-3x.png);
+		--gx-image_Location_icon: url(^assets/resources/Location_icon-4x.png);
+		--gx-image_Star_icon: url(^assets/resources/Star_icon.png);
+		--gx-image_Star_icon: url(^assets/resources/Star_icon-1x.png);
+		--gx-image_Star_icon: url(^assets/resources/Star_icon-2x.png);
+		--gx-image_Star_icon: url(^assets/resources/Star_icon-3x.png);
+		--gx-image_Star_icon: url(^assets/resources/Star_icon-4x.png);
+		--gx-image_b758c85e15b92a6d28f1c65ed1202d59cc48cb54: url(^assets/resources/b758c85e15b92a6d28f1c65ed1202d59cc48cb54.png);
+		--gx-image_Location_white_icon: url(^assets/resources/Location_white_icon.png);
+		--gx-image_Location_white_icon: url(^assets/resources/Location_white_icon-1x.png);
+		--gx-image_Location_white_icon: url(^assets/resources/Location_white_icon-2x.png);
+		--gx-image_Location_white_icon: url(^assets/resources/Location_white_icon-3x.png);
+		--gx-image_Location_white_icon: url(^assets/resources/Location_white_icon-4x.png);
+		--gx-image_Chatbot: url(^assets/resources/Chatbot.png);
+		--gx-image_Chatbot: url(^assets/resources/Chatbot-1x.png);
+		--gx-image_Chatbot: url(^assets/resources/Chatbot-2x.png);
+		--gx-image_Chatbot: url(^assets/resources/Chatbot-3x.png);
+		--gx-image_Chatbot: url(^assets/resources/Chatbot-4x.png);
+		--gx-image_Search_Icon_Grey: url(^assets/resources/Search_Icon_Grey.png);
+		--gx-image_Search_Icon_Grey: url(^assets/resources/Search_Icon_Grey-1x.png);
+		--gx-image_Search_Icon_Grey: url(^assets/resources/Search_Icon_Grey-2x.png);
+		--gx-image_Search_Icon_Grey: url(^assets/resources/Search_Icon_Grey-3x.png);
+		--gx-image_Search_Icon_Grey: url(^assets/resources/Search_Icon_Grey-4x.png);
+		--gx-image_Arrow: url(^assets/resources/Arrow.png);
+		--gx-image_Arrow: url(^assets/resources/Arrow-1x.png);
+		--gx-image_Arrow: url(^assets/resources/Arrow-2x.png);
+		--gx-image_Arrow: url(^assets/resources/Arrow-3x.png);
+		--gx-image_Arrow: url(^assets/resources/Arrow-4x.png);
+		--gx-image_Attractions_grey_icon: url(^assets/resources/Attractions_grey_icon.png);
+		--gx-image_Attractions_grey_icon: url(^assets/resources/Attractions_grey_icon-1x.png);
+		--gx-image_Attractions_grey_icon: url(^assets/resources/Attractions_grey_icon-2x.png);
+		--gx-image_Attractions_grey_icon: url(^assets/resources/Attractions_grey_icon-3x.png);
+		--gx-image_Attractions_grey_icon: url(^assets/resources/Attractions_grey_icon-4x.png);
+		--gx-image_Attractions_icon: url(^assets/resources/Attractions_icon.png);
+		--gx-image_Attractions_icon: url(^assets/resources/Attractions_icon-1x.png);
+		--gx-image_Attractions_icon: url(^assets/resources/Attractions_icon-2x.png);
+		--gx-image_Attractions_icon: url(^assets/resources/Attractions_icon-3x.png);
+		--gx-image_Attractions_icon: url(^assets/resources/Attractions_icon-4x.png);
+		--gx-image_Back_icon: url(^assets/resources/Back_icon.png);
+		--gx-image_Back_icon: url(^assets/resources/Back_icon-1x.png);
+		--gx-image_Back_icon: url(^assets/resources/Back_icon-2x.png);
+		--gx-image_Back_icon: url(^assets/resources/Back_icon-3x.png);
+		--gx-image_Back_icon: url(^assets/resources/Back_icon-4x.png);
+		--gx-image_Cruises_grey_icon: url(^assets/resources/Cruises_grey_icon.png);
+		--gx-image_Cruises_grey_icon: url(^assets/resources/Cruises_grey_icon-1x.png);
+		--gx-image_Cruises_grey_icon: url(^assets/resources/Cruises_grey_icon-2x.png);
+		--gx-image_Cruises_grey_icon: url(^assets/resources/Cruises_grey_icon-3x.png);
+		--gx-image_Cruises_grey_icon: url(^assets/resources/Cruises_grey_icon-4x.png);
+		--gx-image_Img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20: url(^assets/resources/Img164d94a2a2a01b72efa9a8a9e5ecaf8fc4bb8f20.png);
+		--gx-image_Img3b14f83f0442ff949777ad8d262e1f20a4af3cf2: url(^assets/resources/Img3b14f83f0442ff949777ad8d262e1f20a4af3cf2.png);
+		--gx-image_Img4e3d87635acfb01d500f3ce20f8733d249494b3c: url(^assets/resources/Img4e3d87635acfb01d500f3ce20f8733d249494b3c.png);
+		--gx-image_Logo: url(^assets/resources/Logo.png);
+		--gx-image_Logo: url(^assets/resources/Logo-1x.png);
+		--gx-image_Logo: url(^assets/resources/Logo-2x.png);
+		--gx-image_Logo: url(^assets/resources/Logo-3x.png);
+		--gx-image_Logo: url(^assets/resources/Logo-4x.png);
+		--gx-image_Package_grey_icon: url(^assets/resources/Package_grey_icon.png);
+		--gx-image_Package_grey_icon: url(^assets/resources/Package_grey_icon-1x.png);
+		--gx-image_Package_grey_icon: url(^assets/resources/Package_grey_icon-2x.png);
+		--gx-image_Package_grey_icon: url(^assets/resources/Package_grey_icon-3x.png);
+		--gx-image_Package_grey_icon: url(^assets/resources/Package_grey_icon-4x.png);
+		--gx-image_Packages_icon: url(^assets/resources/Packages_icon.png);
+		--gx-image_Packages_icon: url(^assets/resources/Packages_icon-1x.png);
+		--gx-image_Packages_icon: url(^assets/resources/Packages_icon-2x.png);
+		--gx-image_Packages_icon: url(^assets/resources/Packages_icon-3x.png);
+		--gx-image_Packages_icon: url(^assets/resources/Packages_icon-4x.png);
+		--gx-image_Search_icon: url(^assets/resources/Search_icon.png);
+		--gx-image_Search_icon: url(^assets/resources/Search_icon-1x.png);
+		--gx-image_Search_icon: url(^assets/resources/Search_icon-2x.png);
+		--gx-image_Search_icon: url(^assets/resources/Search_icon-3x.png);
+		--gx-image_Search_icon: url(^assets/resources/Search_icon-4x.png);
+		--gx-image_Ship_icon: url(^assets/resources/Ship_icon.png);
+		--gx-image_Ship_icon: url(^assets/resources/Ship_icon-1x.png);
+		--gx-image_Ship_icon: url(^assets/resources/Ship_icon-2x.png);
+		--gx-image_Ship_icon: url(^assets/resources/Ship_icon-3x.png);
+		--gx-image_Ship_icon: url(^assets/resources/Ship_icon-4x.png);
+		--gx-image_Trips_grey_icon: url(^assets/resources/Trips_grey_icon.png);
+		--gx-image_Trips_grey_icon: url(^assets/resources/Trips_grey_icon-1x.png);
+		--gx-image_Trips_grey_icon: url(^assets/resources/Trips_grey_icon-2x.png);
+		--gx-image_Trips_grey_icon: url(^assets/resources/Trips_grey_icon-3x.png);
+		--gx-image_Trips_grey_icon: url(^assets/resources/Trips_grey_icon-4x.png);
+		--gx-image_Flights_icon: url(^assets/resources/Flights_icon.png);
+		--gx-image_Flights_icon: url(^assets/resources/Flights_icon-1x.png);
+		--gx-image_Flights_icon: url(^assets/resources/Flights_icon-2x.png);
+		--gx-image_Flights_icon: url(^assets/resources/Flights_icon-3x.png);
+		--gx-image_Flights_icon: url(^assets/resources/Flights_icon-4x.png);
+	}
+
+	// prefers-color-scheme
+
+}
+
+// *** FONTS ***
+@mixin fonts
+{
+		@font-face {
+			font-family: 'AbhayaLibre-Bold';
+			src: url('../assets/fonts/AbhayaLibre-Bold.ttf');
+		}
+		@font-face {
+			font-family: 'AbhayaLibreSemiBold-Regular';
+			src: url('../assets/fonts/AbhayaLibre-SemiBold.ttf');
+		}
+		@font-face {
+			font-family: 'Lora-Bold';
+			src: url('../assets/fonts/Lora-Bold.ttf');
+		}
+		@font-face {
+			font-family: 'Lora-Regular';
+			src: url('../assets/fonts/Lora-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'Rubik-Regular';
+			src: url('../assets/fonts/Rubik-Regular.ttf');
+		}
+		@font-face {
+			font-family: 'Graphik-Regular';
+			src: url('../assets/fonts/Graphik-400-Regular.otf');
+		}
+		@font-face {
+			font-family: 'Graphik-RegularItalic';
+			src: url('../assets/fonts/Graphik-400-RegularItalic.otf');
+		}
+		@font-face {
+			font-family: 'Graphik-Semibold';
+			src: url('../assets/fonts/Graphik-600-Semibold.otf');
+		}
+		@font-face {
+			font-family: 'Graphik-Bold';
+			src: url('../assets/fonts/Graphik-700-Bold.otf');
+		}
+}
+
+// *** STYLES ***
+@mixin styles
+{
+	.ToggleButtonGroup {
+		// Unsupported > show_edit_text_line:True;
+	}
+
+	.Application {
+		background-size:cover;
+		@include gx_common.gx-application();
+	}
+	%Application__gx_variables {
+		--image-loading-indicator:none;
+	}
+
+
+	.ApplicationBarsHeaderRow {
+		// Unsupported > application_bar_large_title_mode:automatic;
+		// Unsupported > application_bar_alignment:pd;
+	}
+
+	.SketchApplicationBars {
+		// Unsupported > application_bar_large_title_mode:never;
+		// Unsupported > application_bar_alignment:pd;
+	}
+
+	.ApplicationBars {
+		// Unsupported > application_bar_large_title_mode:automatic;
+		// Unsupported > application_bar_alignment:pd;
+	}
+
+	.Animation {
+		@include gx_wcl.custom-vars($class:"%Animation__gx_variables");
+	}
+	%Animation__gx_variables {
+		--gx-animation-type:idNative;
+		--gx-lottie-file-path:(none);
+	}
+
+
+	.SketchForm {
+		// Unsupported > enter_effect:gx_default;
+		// Unsupported > close_effect:gx_default;
+		// Unsupported > call_type:gx_default;
+		// Unsupported > target_size:gx_default;
+		// Unsupported > target_width:100%;
+		// Unsupported > target_height:100%;
+		// Unsupported > content_size_change:gx_default;
+		// Unsupported > input_view_appearance:gx_default;
+	}
+
+	.Form {
+		// Unsupported > enter_effect:gx_default;
+		// Unsupported > close_effect:gx_default;
+		// Unsupported > call_type:gx_default;
+		// Unsupported > target_size:gx_default;
+		// Unsupported > target_width:100%;
+		// Unsupported > target_height:100%;
+		// Unsupported > content_size_change:gx_default;
+		// Unsupported > input_view_appearance:gx_default;
+	}
+
+	.AttributeTitle {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlockTitle");
+	}
+
+	.AttributeSubtitle {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlockSubtitle");
+	}
+
+	.AttributeReadOnly {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+	}
+
+	.LinkAttribute {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+	}
+
+	.SketchAttributeWithType {
+		color:#00CCCC;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+	}
+
+	.Attraction_ratingMargin_2_0_2_0 {
+		color:#9E9E9E;
+		font-family:Graphik-Semibold;
+		font-size:12px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:2px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_ratingMargin_2_0_2_0__gx_variables");
+	}
+	%Attraction_ratingMargin_2_0_2_0__gx_variables {
+		--placeholder-text-color:#9E9E9E;
+	}
+
+
+	.Attraction_rating {
+		color:#9E9E9E;
+		font-family:Graphik-Semibold;
+		font-size:12px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_rating__gx_variables");
+	}
+	%Attraction_rating__gx_variables {
+		--placeholder-text-color:#9E9E9E;
+	}
+
+
+	.Attraction_location {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_location__gx_variables");
+	}
+	%Attraction_location__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Attraction_nameMargin_11_0_4_0 {
+		color:#000000;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:24px;
+		margin-bottom:4px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:11px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_nameMargin_11_0_4_0__gx_variables");
+	}
+	%Attraction_nameMargin_11_0_4_0__gx_variables {
+		--placeholder-text-color:#000000;
+	}
+
+
+	.Attraction_name {
+		color:#000000;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:24px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_name__gx_variables");
+	}
+	%Attraction_name__gx_variables {
+		--placeholder-text-color:#000000;
+	}
+
+
+	.Attraction_rating1Margin_1_0_1_0 {
+		color:#FFFFFF;
+		font-family:Graphik-Semibold;
+		font-size:14px;
+		margin-bottom:1px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:1px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_rating1Margin_1_0_1_0__gx_variables");
+	}
+	%Attraction_rating1Margin_1_0_1_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Attraction_rating1 {
+		color:#FFFFFF;
+		font-family:Graphik-Semibold;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_rating1__gx_variables");
+	}
+	%Attraction_rating1__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Attraction_location1 {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_location1__gx_variables");
+	}
+	%Attraction_location1__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Attraction_name1Margin_0_0_8_0 {
+		color:#FEFFFF;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:40px;
+		margin-bottom:8px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_name1Margin_0_0_8_0__gx_variables");
+	}
+	%Attraction_name1Margin_0_0_8_0__gx_variables {
+		--placeholder-text-color:#FEFFFF;
+	}
+
+
+	.Attraction_name1 {
+		color:#FEFFFF;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:40px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_name1__gx_variables");
+	}
+	%Attraction_name1__gx_variables {
+		--placeholder-text-color:#FEFFFF;
+	}
+
+
+	.AboutMargin_0_0_2_0 {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%AboutMargin_0_0_2_0__gx_variables");
+	}
+	%AboutMargin_0_0_2_0__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.AboutMargin_0_0_2_01 {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%AboutMargin_0_0_2_01__gx_variables");
+	}
+	%AboutMargin_0_0_2_01__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.About {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%About__gx_variables");
+	}
+	%About__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.DatesMargin_0_0_2_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%DatesMargin_0_0_2_0__gx_variables");
+	}
+	%DatesMargin_0_0_2_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.DatesMargin_0_0_2_01 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%DatesMargin_0_0_2_01__gx_variables");
+	}
+	%DatesMargin_0_0_2_01__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Dates {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Dates__gx_variables");
+	}
+	%Dates__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.PricingMargin_0_0_2_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%PricingMargin_0_0_2_0__gx_variables");
+	}
+	%PricingMargin_0_0_2_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.PricingMargin_0_0_2_01 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%PricingMargin_0_0_2_01__gx_variables");
+	}
+	%PricingMargin_0_0_2_01__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Pricing {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Pricing__gx_variables");
+	}
+	%Pricing__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.DirectionsMargin_0_0_2_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%DirectionsMargin_0_0_2_0__gx_variables");
+	}
+	%DirectionsMargin_0_0_2_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.DirectionsMargin_0_0_2_01 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%DirectionsMargin_0_0_2_01__gx_variables");
+	}
+	%DirectionsMargin_0_0_2_01__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Directions {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Directions__gx_variables");
+	}
+	%Directions__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Bus_data {
+		color:#6B6B6B;
+		font-family:Lora-Regular;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Bus_data__gx_variables");
+	}
+	%Bus_data__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Bus {
+		color:#6B6B6B;
+		font-family:Lora-Bold;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Bus__gx_variables");
+	}
+	%Bus__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Metro_dataMargin_0_0_3_0 {
+		color:#6B6B6B;
+		font-family:Lora-Regular;
+		font-size:16px;
+		margin-bottom:3px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Metro_dataMargin_0_0_3_0__gx_variables");
+	}
+	%Metro_dataMargin_0_0_3_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Metro_data {
+		color:#6B6B6B;
+		font-family:Lora-Regular;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Metro_data__gx_variables");
+	}
+	%Metro_data__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Metro {
+		color:#6B6B6B;
+		font-family:Lora-Bold;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Metro__gx_variables");
+	}
+	%Metro__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Address_dataMargin_0_0_3_0 {
+		color:#6B6B6B;
+		font-family:Lora-Regular;
+		font-size:16px;
+		margin-bottom:3px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Address_dataMargin_0_0_3_0__gx_variables");
+	}
+	%Address_dataMargin_0_0_3_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Address_data {
+		color:#6B6B6B;
+		font-family:Lora-Regular;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Address_data__gx_variables");
+	}
+	%Address_data__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Louvre_Museum {
+		color:#6B6B6B;
+		font-family:Lora-Bold;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Louvre_Museum__gx_variables");
+	}
+	%Louvre_Museum__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Attraction_titleMargin_28_0_22_0 {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:40px;
+		margin-bottom:22px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:28px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_titleMargin_28_0_22_0__gx_variables");
+	}
+	%Attraction_titleMargin_28_0_22_0__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Attraction_title {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:40px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_title__gx_variables");
+	}
+	%Attraction_title__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Attraction_name2 {
+		color:#FEFFFF;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:60px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_name2__gx_variables");
+	}
+	%Attraction_name2__gx_variables {
+		--placeholder-text-color:#FEFFFF;
+	}
+
+
+	.The_museum_packs_30_ {
+		color:#3C3F3F;
+		font-family:Lora-Regular;
+		font-size:18px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%The_museum_packs_30___gx_variables");
+	}
+	%The_museum_packs_30___gx_variables {
+		--placeholder-text-color:#3C3F3F;
+	}
+
+
+	.Visit_the_palace_of {
+		color:#3C3F3F;
+		font-family:Lora-Regular;
+		font-size:18px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Visit_the_palace_of__gx_variables");
+	}
+	%Visit_the_palace_of__gx_variables {
+		--placeholder-text-color:#3C3F3F;
+	}
+
+
+	.Attraction_title1Margin_28_0_22_0 {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:40px;
+		margin-bottom:22px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:28px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_title1Margin_28_0_22_0__gx_variables");
+	}
+	%Attraction_title1Margin_28_0_22_0__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Attraction_title1 {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:40px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_title1__gx_variables");
+	}
+	%Attraction_title1__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Attraction_name3 {
+		color:#FEFFFF;
+		font-family:AbhayaLibre-SemiBold;
+		font-size:60px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attraction_name3__gx_variables");
+	}
+	%Attraction_name3__gx_variables {
+		--placeholder-text-color:#FEFFFF;
+	}
+
+
+	.Let_us_help_you_planMargin_16_0_16_0 {
+		color:#BABABA;
+		font-family:Graphik-Semibold;
+		font-size:24px;
+		margin-bottom:16px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Let_us_help_you_planMargin_16_0_16_0__gx_variables");
+	}
+	%Let_us_help_you_planMargin_16_0_16_0__gx_variables {
+		--placeholder-text-color:#BABABA;
+	}
+
+
+	.Let_us_help_you_plan {
+		color:#BABABA;
+		font-family:Graphik-Semibold;
+		font-size:24px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Let_us_help_you_plan__gx_variables");
+	}
+	%Let_us_help_you_plan__gx_variables {
+		--placeholder-text-color:#BABABA;
+	}
+
+
+	.POPULAR_ATTRACTIONS {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%POPULAR_ATTRACTIONS__gx_variables");
+	}
+	%POPULAR_ATTRACTIONS__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.Attractions_tagMargin_5_0_2_0 {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		margin-bottom:2px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attractions_tagMargin_5_0_2_0__gx_variables");
+	}
+	%Attractions_tagMargin_5_0_2_0__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.Attractions_tag {
+		color:#E21710;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attractions_tag__gx_variables");
+	}
+	%Attractions_tag__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.Packages_tagMargin_5_0_0_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Packages_tagMargin_5_0_0_0__gx_variables");
+	}
+	%Packages_tagMargin_5_0_0_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Packages_tag {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Packages_tag__gx_variables");
+	}
+	%Packages_tag__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Trips_tagMargin_5_0_0_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Trips_tagMargin_5_0_0_0__gx_variables");
+	}
+	%Trips_tagMargin_5_0_0_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Trips_tag {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Trips_tag__gx_variables");
+	}
+	%Trips_tag__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Cruises_tagMargin_5_0_0_0 {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:5px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Cruises_tagMargin_5_0_0_0__gx_variables");
+	}
+	%Cruises_tagMargin_5_0_0_0__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Cruises_tag {
+		color:#6B6B6B;
+		font-family:Rubik-Regular;
+		font-size:13px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Cruises_tag__gx_variables");
+	}
+	%Cruises_tag__gx_variables {
+		--placeholder-text-color:#6B6B6B;
+	}
+
+
+	.Title1Margin_23_0_16_0 {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:24px;
+		margin-bottom:16px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:23px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Title1Margin_23_0_16_0__gx_variables");
+	}
+	%Title1Margin_23_0_16_0__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Title1 {
+		color:#111111;
+		font-family:AbhayaLibre-Bold;
+		font-size:24px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Title1__gx_variables");
+	}
+	%Title1__gx_variables {
+		--placeholder-text-color:#111111;
+	}
+
+
+	.Input_search_textMargin_14_0_14_0 {
+		color:#FFFFFF;
+		font-family:Graphik-RegularItalic;
+		font-size:16px;
+		margin-bottom:14px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Input_search_textMargin_14_0_14_0__gx_variables");
+	}
+	%Input_search_textMargin_14_0_14_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Input_search_text {
+		color:#FFFFFF;
+		font-family:Graphik-RegularItalic;
+		font-size:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Input_search_text__gx_variables");
+	}
+	%Input_search_text__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Attractions_labelMargin_7_0_36_0 {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attractions_labelMargin_7_0_36_0__gx_variables");
+	}
+	%Attractions_labelMargin_7_0_36_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Attractions_label {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Attractions_label__gx_variables");
+	}
+	%Attractions_label__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Packages_labelMargin_7_0_36_0 {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Packages_labelMargin_7_0_36_0__gx_variables");
+	}
+	%Packages_labelMargin_7_0_36_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Packages_label {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Packages_label__gx_variables");
+	}
+	%Packages_label__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Flights_labelMargin_7_0_36_0 {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Flights_labelMargin_7_0_36_0__gx_variables");
+	}
+	%Flights_labelMargin_7_0_36_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Flights_label {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Flights_label__gx_variables");
+	}
+	%Flights_label__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Cruises_labelMargin_7_0_36_0 {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Cruises_labelMargin_7_0_36_0__gx_variables");
+	}
+	%Cruises_labelMargin_7_0_36_0__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Cruises_label {
+		color:#FFFFFF;
+		font-family:Rubik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Cruises_label__gx_variables");
+	}
+	%Cruises_label__gx_variables {
+		--placeholder-text-color:#FFFFFF;
+	}
+
+
+	.Title2 {
+		color:#463F57;
+		font-family:Graphik-Bold;
+		font-size:56px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+		@include gx_wcl.custom-vars($class:"%Title2__gx_variables");
+	}
+	%Title2__gx_variables {
+		--placeholder-text-color:#E21710;
+	}
+
+
+	.SketchAttribute {
+		color:#000000;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+	}
+
+	.Attribute {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+		@include gx_wcl.gx-form-field-label($label:".TextBlock");
+	}
+
+	.ButtonDelete {
+		text-transform:uppercase;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.ButtonActionBar {
+		text-transform:uppercase;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.ConfirmButton {
+		text-transform:uppercase;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Button_Small {
+		text-transform:uppercase;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:8px;
+		border-top-right-radius:8px;
+		border-bottom-left-radius:8px;
+		border-bottom-right-radius:8px;
+		color:#FFFFFF;
+		font-family:Graphik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		@include gx_wcl.custom-vars($class:"%Button_Small__gx_variables");
+	}
+	%Button_Small__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Button_small1 {
+		text-transform:uppercase;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:8px;
+		border-top-right-radius:8px;
+		border-bottom-left-radius:8px;
+		border-bottom-right-radius:8px;
+		color:#FFFFFF;
+		font-family:Graphik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		@include gx_wcl.custom-vars($class:"%Button_small1__gx_variables");
+	}
+	%Button_small1__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Button_small2 {
+		text-transform:uppercase;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:8px;
+		border-top-right-radius:8px;
+		border-bottom-left-radius:8px;
+		border-bottom-right-radius:8px;
+		color:#FFFFFF;
+		font-family:Graphik-Regular;
+		font-size:14px;
+		// Unsupported > ThemeAnimated:False;
+		@include gx_wcl.custom-vars($class:"%Button_small2__gx_variables");
+	}
+	%Button_small2__gx_variables {
+		--elevation:4;
+	}
+
+
+	.SketchButton {
+		text-transform:uppercase;
+		background-color:#00000000;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Button {
+		text-transform:uppercase;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.SketchMenu {
+		// Unsupported > ThemeGridClassReference:SketchGridForMenu;
+		// Unsupported > ThemeTabClassReference:SketchTabForMenu;
+	}
+
+
+	.SketchMenuItem {
+		background-color:#00000000;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.MenuItem {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.SketchGridForMenu {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:true);
+	}
+
+	.Grid_Attractions_SmallMargin_16_0_20_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		margin-bottom:20px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false, $class:".Grid_Attractions_Small_HL");
+		@include gx_wcl.gx-grid-base($even-row:".Grid_Attractions_Small_Row", $odd-row:".Grid_Attractions_Small_Row");
+	}
+
+	.Grid_Attractions_Small {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:true, $class:".Grid_Attractions_Small_HL");
+		@include gx_wcl.gx-grid-base($even-row:".Grid_Attractions_Small_Row", $odd-row:".Grid_Attractions_Small_Row");
+	}
+
+	.Grid_attractions_Big {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false, $class:".Grid_attractions_Big_HL");
+		@include gx_wcl.gx-grid-base($even-row:".Grid_attractions_Big_Row", $odd-row:".Grid_attractions_Big_Row");
+	}
+
+	.SketchGrid {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:true);
+	}
+
+	.Grid {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:true);
+	}
+
+	.GridRowOdd {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.GridRowEven {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Grid_Attractions_Small_Row {
+		background-size:cover;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:15px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Grid_attractions_Big_Row {
+		background-size:cover;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:15px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.GridRow {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Group {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+	}
+
+
+
+
+	.Grid_Attractions_Small_HL {
+		height:0px;
+		@include gx_wcl.custom-vars($class:"%Grid_Attractions_Small_HL__gx_variables");
+	}
+	%Grid_Attractions_Small_HL__gx_variables {
+		--height:0px;
+	}
+
+
+	.Grid_attractions_Big_HL {
+		height:0px;
+		@include gx_wcl.custom-vars($class:"%Grid_attractions_Big_HL__gx_variables");
+	}
+	%Grid_attractions_Big_HL__gx_variables {
+		--height:0px;
+	}
+
+
+
+
+	.WWImage {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+	}
+	%WWImage__gx_variables {
+		--image-loading-indicator:none;
+	}
+
+
+	.ViewImage {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+	}
+	%ViewImage__gx_variables {
+		--image-loading-indicator:none;
+	}
+
+
+	.Star_icon {
+		height:16px;
+		width:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Star_icon__gx_variables");
+	}
+	%Star_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:16px;
+		--width:16px;
+	}
+
+
+	.Location_icon {
+		height:14px;
+		width:10px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Location_icon__gx_variables");
+	}
+	%Location_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:14px;
+		--width:10px;
+	}
+
+
+	.Attraction_image {
+		border-top-left-radius:10px;
+		border-top-right-radius:10px;
+		border-bottom-left-radius:10px;
+		border-bottom-right-radius:10px;
+		height:200px;
+		width:200px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attraction_image__gx_variables");
+	}
+	%Attraction_image__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:200px;
+		--width:200px;
+	}
+
+
+	.Attraction_image1 {
+		border-top-left-radius:5px;
+		border-top-right-radius:5px;
+		border-bottom-left-radius:5px;
+		border-bottom-right-radius:5px;
+		height:400px;
+		width:320px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attraction_image1__gx_variables");
+	}
+	%Attraction_image1__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:400px;
+		--width:320px;
+	}
+
+
+	.Star_icon1 {
+		height:16px;
+		width:16px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Star_icon1__gx_variables");
+	}
+	%Star_icon1__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:16px;
+		--width:16px;
+	}
+
+
+	.Location_white_icon {
+		height:14px;
+		width:10px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Location_white_icon__gx_variables");
+	}
+	%Location_white_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:14px;
+		--width:10px;
+	}
+
+
+	.Search_Icon_Grey {
+		height:42px;
+		width:42px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Search_Icon_Grey__gx_variables");
+	}
+	%Search_Icon_Grey__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:42px;
+		--width:42px;
+	}
+
+
+	.Chatbot1 {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Chatbot1__gx_variables");
+	}
+	%Chatbot1__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+	}
+
+
+	.Attraction_image2 {
+		height:517px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attraction_image2__gx_variables");
+	}
+	%Attraction_image2__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:517px;
+	}
+
+
+	.Back_icon {
+		height:24px;
+		width:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Back_icon__gx_variables");
+	}
+	%Back_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:24px;
+		--width:14px;
+	}
+
+
+	.Map_Louvre {
+		height:664px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Map_Louvre__gx_variables");
+	}
+	%Map_Louvre__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:664px;
+	}
+
+
+	.Forgotten_Kingdoms {
+		height:442px;
+		width:354px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Forgotten_Kingdoms__gx_variables");
+	}
+	%Forgotten_Kingdoms__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:442px;
+		--width:354px;
+	}
+
+
+	.Attraction_image3 {
+		height:517px;
+		width:414px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attraction_image3__gx_variables");
+	}
+	%Attraction_image3__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:517px;
+		--width:414px;
+	}
+
+
+	.Back_icon1 {
+		height:24px;
+		width:14px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Back_icon1__gx_variables");
+	}
+	%Back_icon1__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:24px;
+		--width:14px;
+	}
+
+
+	.Arrow {
+		height:10px;
+		width:38px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Arrow__gx_variables");
+	}
+	%Arrow__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:10px;
+		--width:38px;
+	}
+
+
+	.Attractions_grey_icon {
+		height:40px;
+		width:38px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attractions_grey_icon__gx_variables");
+	}
+	%Attractions_grey_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:40px;
+		--width:38px;
+	}
+
+
+	.Package_grey_icon {
+		height:40px;
+		width:42px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Package_grey_icon__gx_variables");
+	}
+	%Package_grey_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:40px;
+		--width:42px;
+	}
+
+
+	.Trips_grey_icon {
+		height:40px;
+		width:40px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Trips_grey_icon__gx_variables");
+	}
+	%Trips_grey_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:40px;
+		--width:40px;
+	}
+
+
+	.Cruises_grey_icon {
+		height:40px;
+		width:46px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Cruises_grey_icon__gx_variables");
+	}
+	%Cruises_grey_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:40px;
+		--width:46px;
+	}
+
+
+	.Logo {
+		height:44px;
+		width:157px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Logo__gx_variables");
+	}
+	%Logo__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:44px;
+		--width:157px;
+	}
+
+
+	.Background_Home {
+		height:896px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Background_Home__gx_variables");
+	}
+	%Background_Home__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:cover;
+		--height:896px;
+	}
+
+
+	.Search_iconMargin_0_0_0_15 {
+		height:20px;
+		width:20px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:15px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Search_iconMargin_0_0_0_15__gx_variables");
+	}
+	%Search_iconMargin_0_0_0_15__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:20px;
+		--width:20px;
+	}
+
+
+	.Search_icon {
+		height:20px;
+		width:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Search_icon__gx_variables");
+	}
+	%Search_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:20px;
+		--width:20px;
+	}
+
+
+	.Attractions_icon {
+		height:53px;
+		width:51px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Attractions_icon__gx_variables");
+	}
+	%Attractions_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:53px;
+		--width:51px;
+	}
+
+
+	.Packages_icon {
+		height:53px;
+		width:56px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Packages_icon__gx_variables");
+	}
+	%Packages_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:53px;
+		--width:56px;
+	}
+
+
+	.Flights_icon {
+		height:53px;
+		width:53px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Flights_icon__gx_variables");
+	}
+	%Flights_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:53px;
+		--width:53px;
+	}
+
+
+	.Ship_icon {
+		height:53px;
+		width:61px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Ship_icon__gx_variables");
+	}
+	%Ship_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:53px;
+		--width:61px;
+	}
+
+
+	.Logo1 {
+		height:44px;
+		width:157px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Logo1__gx_variables");
+	}
+	%Logo1__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:44px;
+		--width:157px;
+	}
+
+
+	.Trip_icon {
+		height:53px;
+		width:53px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%Trip_icon__gx_variables");
+	}
+	%Trip_icon__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+		--height:53px;
+		--width:53px;
+	}
+
+
+	.SketchImage {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		@include gx_wcl.custom-vars($class:"%SketchImage__gx_variables");
+	}
+	%SketchImage__gx_variables {
+		--image-loading-indicator:none;
+		--image-scale-type:contain;
+	}
+
+
+	.Image {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+	}
+	%Image__gx_variables {
+		--image-loading-indicator:none;
+	}
+
+
+	.Multimedia {
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+	}
+	%Multimedia__gx_variables {
+		--image-loading-indicator:none;
+	}
+
+
+
+	.SketchTabForMenu {
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		@include gx_wcl.gx-tab($unselected-tab-caption:".SketchTabPageUnselected", $selected-tab-caption:".SketchTabPageSelected", $tabs-position:bottom);
+	}
+
+	.SketchTab {
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		@include gx_wcl.gx-tab($unselected-tab-caption:".SketchTabPageUnselected", $selected-tab-caption:".SketchTabPageSelected");
+	}
+
+	.Tab {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.SketchTabPageSelected {
+		text-transform:uppercase;
+	}
+
+	.TabPageSelected {
+		text-transform:uppercase;
+	}
+
+	.SketchTabPageUnselected {
+		text-transform:uppercase;
+	}
+
+	.TabPageUnselected {
+		text-transform:uppercase;
+	}
+
+	.TabPage {
+		text-transform:uppercase;
+	}
+
+	.SketchTableSmallAttractions {
+		background-size:cover;
+		margin-left:10px;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixCell {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixSelectedCell {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixAxisTable {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixEvenRowTable {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixOddRowTable {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MatrixSelectedRowTable {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.TableDetail {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.TableSectioninsert {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.TableSection {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.MainTable {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.GridContainer {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Background3 {
+		background-size:cover;
+		background-color:#463F57;
+		border-width:0px;
+		border-style:solid;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Background3__gx_variables");
+	}
+	%Background3__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Background4 {
+		background-size:cover;
+		background-color:#463F57;
+		border-width:0px;
+		border-style:solid;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Background4__gx_variables");
+	}
+	%Background4__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Background5 {
+		background-size:cover;
+		background-color:#463F57;
+		border-width:0px;
+		border-style:solid;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Background5__gx_variables");
+	}
+	%Background5__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Background6 {
+		background-size:cover;
+		background-color:#463F57;
+		border-width:0px;
+		border-style:solid;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Background6__gx_variables");
+	}
+	%Background6__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Main_Color {
+		background-size:cover;
+		background-color:#463F57;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Attraction_Small {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Attraction_Big {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Search_Small {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.ChatbotMargin_0_0_0_21 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:21px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.ChatbotMargin_0_0_0_211 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:21px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Chatbot {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Line {
+		background-size:cover;
+		background-color:#D8D8D8;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_2 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_3 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Line1 {
+		background-size:cover;
+		background-color:#D8D8D8;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Louvre_Pic {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_4 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_31 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_21 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Louvre_Directions {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.SectionsMargin_10_18_0_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:0px;
+		margin-left:18px;
+		margin-right:0px;
+		margin-top:10px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Sections {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Rectangle {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Directions_data {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Header_CopyMargin_0_0_11_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:11px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Header_Copy {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_32 {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Background {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Back_and_search {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Louvre_About {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group2Margin_23_30_122_30 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:122px;
+		margin-left:30px;
+		margin-right:30px;
+		margin-top:23px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group2 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Sections1Margin_10_18_0_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:0px;
+		margin-left:18px;
+		margin-right:0px;
+		margin-top:10px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Sections1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Rectangle1 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Header {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_33 {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Background1 {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Back_and_search1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.AttractionsMargin_7_0_36_0 {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Attractions {
+		background-size:cover;
+		background-color:#FFFFFF;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.FooterMargin_19_30_46_19 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:46px;
+		margin-left:30px;
+		margin-right:19px;
+		margin-top:19px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Footer {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Popular_attractions_title {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Sections2Margin_15_0_0_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:0px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:15px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Sections2 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Attractions1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Line2 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.PackagesMargin_7_0_36_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Packages {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.TripsMargin_7_0_36_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Trips {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.CruisesMargin_7_0_36_0 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:36px;
+		margin-left:0px;
+		margin-right:0px;
+		margin-top:7px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Cruises {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Header1Margin_28_30_24_22 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		margin-bottom:24px;
+		margin-left:30px;
+		margin-right:22px;
+		margin-top:28px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Header1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Home {
+		background-size:cover;
+		background-color:#D7D7D7;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:0px;
+		border-bottom-left-radius:0px;
+		border-bottom-right-radius:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Search {
+		background-size:cover;
+		background-color:#0000003F;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:22px;
+		border-top-right-radius:22px;
+		border-bottom-left-radius:22px;
+		border-bottom-right-radius:22px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Background2 {
+		background-size:cover;
+		background-color:#0000003F;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:22px;
+		border-top-right-radius:22px;
+		border-bottom-left-radius:22px;
+		border-bottom-right-radius:22px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Menu1 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Group_34 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Attractions2 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Attractions2__gx_variables");
+	}
+	%Attractions2__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Packages1 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Packages1__gx_variables");
+	}
+	%Packages1__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Group3 {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		border-style:solid;
+		border-width:0px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Flights {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Flights__gx_variables");
+	}
+	%Flights__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Cruises1 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Cruises1__gx_variables");
+	}
+	%Cruises1__gx_variables {
+		--elevation:4;
+	}
+
+
+	.Trips1 {
+		background-size:cover;
+		background-color:#E21710;
+		border-style:solid;
+		border-width:0px;
+		border-top-left-radius:20px;
+		border-top-right-radius:20px;
+		border-bottom-left-radius:20px;
+		border-bottom-right-radius:20px;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+		@include gx_wcl.custom-vars($class:"%Trips1__gx_variables");
+	}
+	%Trips1__gx_variables {
+		--elevation:4;
+	}
+
+
+	.SketchTable {
+		background-size:cover;
+		background-color:#FFFFFF00;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.Table {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+		@include gx_wcl.horizontal-line($show-horizontal-line:false);
+	}
+
+	.TextBlockTitle {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.TextBlockSubtitle {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.ViewImageLabelClass {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.ImageLabelClass {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.TextBlockSlider {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.AttributeLabel {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.CalendarLabel {
+		font-size:34px;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.SketchTextBlock {
+		color:#000000;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.TextBlock {
+		// Unsupported > ThemeAnimated:False;
+	}
+
+
+	.Matrix {
+		background-size:cover;
+		// Unsupported > YAxisTitleLabelClassReference:MatrixLabel;
+		// Unsupported > YAxisDescriptionLabelClassReference:MatrixLabel;
+		// Unsupported > XAxisLabelClassReference:MatrixLabel;
+		// Unsupported > CellTableClassReference:MatrixCell;
+		// Unsupported > SelectedCellTableClassReference:MatrixSelectedCell;
+		// Unsupported > XAxisTableClassReference:MatrixAxisTable;
+		// Unsupported > YAxisTableClassReference:MatrixAxisTable;
+		// Unsupported > RowTableClassReferenceEven:MatrixRowTable;
+		// Unsupported > RowTableClassReferenceOdd:MatrixRowTable;
+		// Unsupported > SelectedRowTableClassReference:MatrixRowTable;
+		// Unsupported > showHorizontalRules:True;
+		// Unsupported > HorizontalLineSeparatorClassReference:MatrixLineSeparator;
+		// Unsupported > VerticalLineSeparatorClassReference:MatrixLineSeparator;
+		// Unsupported > showVerticalRules:True;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+	}
+
+	.MatrixAxisLabel {
+		// Unsupported > HorizontalAlignment:Default;
+		// Unsupported > ThemeAnimated:False;
+	}
+
+	.Rating {
+		// Unsupported > RatingSelectedColor:#F5C145;
+		// Unsupported > RatingUnselectedColor:#E6E6E6;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > show_edit_text_line:True;
+	}
+
+	.Calendar {
+		background-size:cover;
+		// Unsupported > ThemeAnimated:False;
+		// Unsupported > sdmotion_max_horizontal:0;
+		// Unsupported > sdmotion_max_vertical:0;
+		// Unsupported > SDScrollIndicatorsVisibility:default;
+		// Unsupported > SDScrollIndicatorsStyle:default;
+		// Unsupported > SDScrollBouncing:default;
+	}
+
+	.PageController {
+		// Unsupported > SDPageIndicatorSelectedColor:#FFFFFF;
+		// Unsupported > SDPageIndicatorUnselectedColor:#777777;
+	}
+
+	.Slider {
+		// Unsupported > show_edit_text_line:True;
+	}
+
+	.MapPinImage {
+		// Unsupported > PinHeight:0;
+		// Unsupported > PinWidth:0;
+	}
+
+	.MapRoute {
+		// Unsupported > LineWidth:0;
+		// Unsupported > LineJoin:Round;
+		// Unsupported > MiterLimit:10;
+		// Unsupported > LineCap:Butt;
+		// Unsupported > LineDashPhase:10dip;
+	}
+
+	.MapPolygon {
+		// Unsupported > LineWidth:0;
+		// Unsupported > LineJoin:Round;
+		// Unsupported > MiterLimit:10;
+		// Unsupported > LineCap:Butt;
+		// Unsupported > LineDashPhase:10dip;
+	}
+
+
+} 

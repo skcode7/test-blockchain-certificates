@@ -1,0 +1,9 @@
+@use "./_base_travel_agency_app_mobile_3_" as travel_agency_app_mobile_3_;
+
+// *** IMPORTS ***
+
+// *** STYLES ***
+@include travel_agency_app_mobile_3_.tokens;
+@include travel_agency_app_mobile_3_.images;
+@include travel_agency_app_mobile_3_.fonts;
+@include travel_agency_app_mobile_3_.styles; 

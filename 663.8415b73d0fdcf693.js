@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkgenexus_web_application=self.webpackChunkgenexus_web_application||[]).push([[663],{5663:(l,n,e)=>{e.r(n),e.d(n,{gx_query_viewer_element:()=>s});var t=e(4570);let s=class{constructor(i){(0,t.r)(this,i),this.elementChanged=(0,t.c)(this,"elementChanged",7)}componentDidUpdate(){this.elementChanged.emit()}}}}]);

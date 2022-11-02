@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.viewattractions_level_detail_grid_attractions_big_services,viewattractions" %>

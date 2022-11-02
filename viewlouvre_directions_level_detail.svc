@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.viewlouvre_directions_level_detail_services,viewlouvre_directions" %>

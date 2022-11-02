@@ -1,0 +1,1 @@
+<%@ServiceHost Service= "GeneXus.Programs.viewhome_level_detail_services,viewhome" %>
